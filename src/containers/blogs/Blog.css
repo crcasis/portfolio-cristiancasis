@@ -8,7 +8,7 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .square:hover {
@@ -25,7 +25,7 @@
 }
 .blog-main-div > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .blog-main-div {
   display: flex;

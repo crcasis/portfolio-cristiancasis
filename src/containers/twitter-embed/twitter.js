@@ -1,11 +1,13 @@
-import React, {Suspense, useContext} from "react";
+import React, {Suspense, lazy, useContext} from "react";
 import "./twitter.css";
 import Loading from "../loading/Loading";
-import {TwitterTimelineEmbed} from "react-twitter-embed";
 import {twitterDetails} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 const renderLoader = () => <Loading />;
+const TwitterTimelineEmbed = lazy(() =>
+  import("react-twitter-embed").then(mod => ({default: mod.TwitterTimelineEmbed}))
+);
 const cantDisplayError =
   "<div className='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
 

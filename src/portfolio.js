@@ -15,7 +15,7 @@ const greeting = {
     "Passionate CTO & Sr Cloud DevOps Engineer | Solutions Architect 🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1QhXwsdfsH6E4nuEXAOi64b_b1GR7UJor/view?usp=sharing",
+    "https://docs.google.com/presentation/d/1FEIUcaEFdQiICQsleYIJSGboRWxLby94/edit?usp=sharing&ouid=111369774840453663196&rtpof=true&sd=true",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
